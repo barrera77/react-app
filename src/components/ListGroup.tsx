@@ -16,7 +16,7 @@ function ListGroup() {
       <ul className="list-group">
         {items.map((item) => (
           <li className="list-item" key={item}>
-            {item}
+            {items}
           </li>
         ))}
       </ul>
